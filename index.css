@@ -31,8 +31,10 @@ body{
 
 .logo{
     color: var(--vermelho);
+    font-weight: 700;
 }
 
 .cor-fonte{
     color: var(--preto);
+    font-weight: 700;
 }
