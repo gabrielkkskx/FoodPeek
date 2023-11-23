@@ -101,9 +101,11 @@ body{
 .botao{
     background-color: var(--vermelho);
     color: var(--branco);
+    padding: 1em 2.2em;
     width: 75px;
     height: 15px;
     font-weight: 700;
     text-decoration: none;
     box-shadow: -1px 3px 10px var(--preto);
+    border-radius: 7px;
 }
