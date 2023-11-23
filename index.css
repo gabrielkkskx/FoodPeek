@@ -66,6 +66,7 @@ body{
 
 .menu{
     cursor: pointer;
+    display: none;
 }
 
 .bar{
@@ -81,4 +82,27 @@ body{
 .bar:nth-child(1),
 .bar:nth-child(3){
     background: var(--barra);
+}
+
+.txt-vermelho{
+    color: var(--vermelho);
+    font-weight: 400;
+}
+
+.titulo{
+    font-weight: 600;
+}
+
+.paragrafo{
+    font-weight: 300;
+}
+
+.botao{
+    background-color: var(--vermelho);
+    color: var(--branco);
+    width: 75px;
+    height: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: -1px 3px 10px var(--preto);
 }
