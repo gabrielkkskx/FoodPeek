@@ -87,6 +87,7 @@ body{
 .txt-vermelho{
     color: var(--vermelho);
     font-weight: 400;
+    font-size: 16px;
 }
 
 .titulo{
