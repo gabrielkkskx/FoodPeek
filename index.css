@@ -1,5 +1,6 @@
 :root{
     --vermelho: #d63a25;
+    --barra: #911404;
     --preto: #000;
     --branco:#fff;
     --background: #;
@@ -23,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1em 2em;
     box-shadow: 0 0.1rem 0.5rem #ccc;
     width: 100%;
     transition: all 0.5s;
@@ -31,10 +32,53 @@ body{
 
 .logo{
     color: var(--vermelho);
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.7rem;
 }
 
 .cor-fonte{
     color: var(--preto);
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-menu-link{
+    color: var(--preto);
+    font-size: 17px;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.nav-menu-link:hover{
+    color: var(--vermelho);
+}
+
+.navegacao i{
+    cursor: pointer;
+    font-size: 1,5rem;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--preto);
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+
+.bar:nth-child(1)
+.bar:nth-child(3){
+    background: var(--barra);
 }
