@@ -78,7 +78,7 @@ body{
     transition: all 0.3s;
 }
 
-.bar:nth-child(1)
+.bar:nth-child(1),
 .bar:nth-child(3){
     background: var(--barra);
 }
