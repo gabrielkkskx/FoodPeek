@@ -1,0 +1,38 @@
+:root{
+    --vermelho: #d63a25;
+    --preto: #000;
+    --branco:#fff;
+    --background: #;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    color: var(--preto);
+    background: var(--branco);
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.logo{
+    color: var(--vermelho);
+}
+
+.cor-fonte{
+    color: var(--preto);
+}
