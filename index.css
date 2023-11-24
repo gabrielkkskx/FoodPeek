@@ -121,3 +121,15 @@ body{
     margin-bottom: 1em;
     line-height: 4rem;
 }
+
+.paragrafo{
+    margin-bottom: 4rem;
+}
+
+.botao:hover{
+    background: #fc4c35;
+}
+
+.img{
+    width: 100%;
+}
