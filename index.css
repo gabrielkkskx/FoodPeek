@@ -122,5 +122,6 @@ body{
 }
 
 .img{
-    width: 90%;
+    width: 480;
+    height: 480;
 }
