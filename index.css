@@ -119,4 +119,5 @@ body{
 .titulo{
     font-size: 4rem;
     margin-bottom: 1em;
+    line-height: 4rem;
 }
