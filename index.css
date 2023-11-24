@@ -111,7 +111,12 @@ body{
 }
 
 .txt-vermelho{
-    font-size: 1.5rem;
+    font-size: 10px;
     color: var(--vermelho);
-    margin-bottom: 1rem;
+    margin-bottom: 8px;
+}
+
+.titulo{
+    font-size: 2.6rem;
+    margin-bottom: 2em;
 }
