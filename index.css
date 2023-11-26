@@ -3,7 +3,8 @@
     --white:#fff;
     --dark:#1e1c2a;
     --degrade: radial-gradient(circle, rgba(166,8,8,1) 0%, rgba(0,0,0,1) 100%);
-    --degrade-header:  radial-gradient(circle, rgba(59,1,1,1) 0%, rgba(0,0,0,1) 100%);
+    --degrade-header:  linear-gradient(180deg, rgba(36,2,1,1) 0%, rgba(20,1,1,1) 100%);
+    --laranja: #EB9B00;
 }
 
 *{
@@ -25,7 +26,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #490707;
+    box-shadow: 0 0.1rem 10px #614848;
     width: 100%;
     background: var(--degrade-header);
     transition: all 0.5s;
@@ -129,6 +130,18 @@ body{
 .home-img img{
     width: 100%;
 }
+
+#copy{
+    background-color: #263138;
+    text-align: center;
+    padding: 24px;
+    color: #FFF;
+  }
+  
+  .nick {
+    color: var(--laranja);
+    text-decoration: none;
+  }
 
 @media (max-width:785px) {
     .navigation{
