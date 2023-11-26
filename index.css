@@ -169,6 +169,7 @@ body{
         background: var(--white);
         gap: -10px;
         transition: 0.3s;
+        color: var(--dark);
     }
     .nav-menu.ativo{
         right: 0;
