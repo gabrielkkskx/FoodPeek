@@ -1,5 +1,5 @@
 :root{
-    --red:#d63a25;
+    --red:#e03019;
     --white:#fff;
     --dark:#1e1c2a;
     --degrade: radial-gradient(circle, rgba(166,8,8,1) 0%, rgba(0,0,0,1) 100%);
@@ -25,7 +25,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
+    box-shadow: 0 0.1rem 0.5rem #222020;
     width: 100%;
     background: var(--degrade-header);
     transition: all 0.5s;
